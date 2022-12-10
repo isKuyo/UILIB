@@ -59,7 +59,7 @@ function library:CreateWindow(name, version, icon)
 	Icon.BackgroundTransparency = 1.000
 	Icon.Position = UDim2.new(0, 6, 0, 6)
 	Icon.Size = UDim2.new(0, 18, 0, 18)
-	Icon.Image = "rbxassetid://10590477450"
+	Icon.Image = "rbxassetid://9897870796"
 	Icon.ImageColor3 = Color3.fromRGB(39, 169, 255)
 
 	MainTitle.Name = "Title"
@@ -946,7 +946,7 @@ function library:CreateWindow(name, version, icon)
 				EditIcon.BackgroundTransparency = 1.000
 				EditIcon.Position = UDim2.new(0, 6, 0, 6)
 				EditIcon.Size = UDim2.new(0, 18, 0, 18)
-				EditIcon.Image = "rbxassetid://"..icon
+				EditIcon.Image = "rbxassetid://9897870796"
 				EditIcon.ImageColor3 = Color3.fromRGB(39, 169, 255)
 				function UpdateBox:UpdateBox(name)
 					TextInput.PlaceholderText = name
