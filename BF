@@ -290,7 +290,7 @@ if BF then
 		else
 			StringSize = 20
 		end
-		ShowName.TextSize = 20.000
+		ShowName.TextSize = 10.000
 		ShowName.TextXAlignment = Enum.TextXAlignment.Left
 	
 		NameHub.Name = "NameHub"
@@ -314,7 +314,7 @@ if BF then
 		Toggleui.Size = UDim2.new(0, 120, 0, 30)
 		Toggleui.Font = Enum.Font.SourceSansSemibold
 		Toggleui.Text = "[ Right Control ]"
-		Toggleui.TextColor3 = Color3.fromRGB(39, 169, 255)
+		Toggleui.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Toggleui.TextSize = 20.000
 	
 		HideTab.Name = "HideTab"
