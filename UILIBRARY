@@ -241,7 +241,7 @@ if BF then
 	
 		Main.Name = "Main"
 		Main.Parent = ScreenGui
-		Main.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+		Main.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 		Main.ClipsDescendants = true
 		Main.Position = UDim2.new(0.5, -325, 0.5, -175)
 		Main.Size = UDim2.new(0, 650, 0, 425)
@@ -251,7 +251,7 @@ if BF then
 	
 		TopMain.Name = "TopMain"
 		TopMain.Parent = Main
-		TopMain.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+		TopMain.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 		TopMain.Size = UDim2.new(0, 650, 0, 30)
 	
 		MakeDraggable(TopMain, Main)
@@ -261,7 +261,7 @@ if BF then
 	
 		TopMainLine.Name = "TopMainLine"
 		TopMainLine.Parent = TopMain
-		TopMainLine.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+		TopMainLine.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 		TopMainLine.BorderSizePixel = 0
 		TopMainLine.Position = UDim2.new(0, 0, 0.833333313, 0)
 		TopMainLine.Size = UDim2.new(1, 0, 0, 5)
@@ -272,7 +272,7 @@ if BF then
 		ShowName.BackgroundTransparency = 1.000
 		ShowName.Position = UDim2.new(0, 9, 0.92, 0)
 		ShowName.Size = UDim2.new(0, 160, 0, 30)
-		ShowName.Font = Enum.Font.SourceSansSemibold
+		ShowName.Font = Enum.Font.Gotham
 		ShowName.RichText =  true
 		ShowName.Text = MyNameIs
 		ShowName.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -299,7 +299,7 @@ if BF then
 		NameHub.BackgroundTransparency = 1.000
 		NameHub.Position = UDim2.new(0.0507692285, 0, 0, 0)
 		NameHub.Size = UDim2.new(0, 160, 0, 30)
-		NameHub.Font = Enum.Font.SourceSansSemibold
+		NameHub.Font = Enum.Font.Gotham
 		NameHub.RichText =  true
 		NameHub.Text = "<font color=\"rgb(".. math.floor(ColorII.R * 255) .. "," .. math.floor(ColorII.G * 255) .. ",".. math.floor(ColorII.B * 255) ..")\"> " .. name .. " </font> Hub | " .. game
 		NameHub.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -312,9 +312,9 @@ if BF then
 		Toggleui.BackgroundTransparency = 1.000
 		Toggleui.Position = UDim2.new(0.803076923, 0, 0, 0)
 		Toggleui.Size = UDim2.new(0, 120, 0, 30)
-		Toggleui.Font = Enum.Font.SourceSansSemibold
+		Toggleui.Font = Enum.Font.Gotham
 		Toggleui.Text = "[ Right Control ]"
-		Toggleui.TextColor3 = Color3.fromRGB(39, 169, 255)
+		Toggleui.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Toggleui.TextSize = 20.000
 	
 		HideTab.Name = "HideTab"
@@ -368,9 +368,6 @@ if BF then
 		TabSet.PlaceholderColor3 = Color3.fromRGB(39, 169, 255)
 		TabSet.TextSize = 18.000
 		TabSet.ClipsDescendants = true
-	
-		MainUICorner.Name = "MainUICorner"
-		MainUICorner.Parent = TabSet
 	
 		BalckGrouitList.Name = "BalckGrouitList"
 		BalckGrouitList.Parent = Taplist
