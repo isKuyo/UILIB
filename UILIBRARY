@@ -1263,9 +1263,9 @@ if BF then
 	
 			function TabElements:Dropdown(name, options, presetoption, callback)
 				local NameDropdown = Instance.new("Frame")
-				local UICorner = Instance.new("UICorner")
 				local TitleToggle = Instance.new("TextButton")
 				local Dropdown = Instance.new("ScrollingFrame")
+				local UICorner_2 = Instance.new("UICorner")
 				local DropdownContentLayout = Instance.new("UIListLayout")
 				local add = Instance.new("ImageButton")
 	
