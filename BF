@@ -312,10 +312,10 @@ if BF then
 		Toggleui.BackgroundTransparency = 1.000
 		Toggleui.Position = UDim2.new(0.803076923, 0, 0, 0)
 		Toggleui.Size = UDim2.new(0, 120, 0, 30)
-		Toggleui.Font = Enum.Font.SourceSansSemibold
+		Toggleui.Font = Enum.Font.Gotham
 		Toggleui.Text = "[ Right Control ]"
 		Toggleui.TextColor3 = Color3.fromRGB(255, 255, 255)
-		Toggleui.TextSize = 20.000
+		Toggleui.TextSize = 15.000
 	
 		HideTab.Name = "HideTab"
 		HideTab.Parent = TopMain
