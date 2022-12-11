@@ -872,7 +872,7 @@ if BF then
 				Title.Size = UDim2.new(0, 149, 0, 35)
 				Title.ZIndex = 5
 				Title.Font = Enum.Font.SourceSansBold
-				Title.Text = sla
+				Title.Text = text
 				Title.TextColor3 = Color3.fromRGB(185, 185, 185)
 				Title.TextSize = 15.000
 				Title.TextXAlignment = Enum.TextXAlignment.Left
