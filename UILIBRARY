@@ -872,7 +872,7 @@ if BF then
 				Title.Size = UDim2.new(0, 149, 0, 35)
 				Title.ZIndex = 5
 				Title.Font = Enum.Font.SourceSansBold
-				Title.Text = text
+				Title.Text = sla
 				Title.TextColor3 = Color3.fromRGB(185, 185, 185)
 				Title.TextSize = 15.000
 				Title.TextXAlignment = Enum.TextXAlignment.Left
@@ -1263,10 +1263,8 @@ if BF then
 	
 			function TabElements:Dropdown(name, options, presetoption, callback)
 				local NameDropdown = Instance.new("Frame")
-				local UICorner = Instance.new("UICorner")
 				local TitleToggle = Instance.new("TextButton")
 				local Dropdown = Instance.new("ScrollingFrame")
-				local UICorner_2 = Instance.new("UICorner")
 				local DropdownContentLayout = Instance.new("UIListLayout")
 				local add = Instance.new("ImageButton")
 	
