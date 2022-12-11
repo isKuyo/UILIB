@@ -362,7 +362,7 @@ if BF then
 		TabSet.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 		TabSet.Size = UDim2.new(0, 120, 0, 25)
 		TabSet.Font = Enum.Font.Gotham
-		TabSet.PlaceholderText = "Search : ..."
+		TabSet.PlaceholderText = "Search"
 		TabSet.Text = ""
 		TabSet.TextColor3 = Color3.fromRGB(255, 255, 255)
 		TabSet.PlaceholderColor3 = Color3.fromRGB(39, 169, 255)
