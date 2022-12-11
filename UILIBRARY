@@ -230,6 +230,7 @@ if BF then
 	
 		local Main = Instance.new("Frame")
 		local ShowName = Instance.new("TextLabel")
+		local MainUICorner = Instance.new("UICorner")
 		local TopMain = Instance.new("Frame")
 		local TopMainUICorner = Instance.new("UICorner")
 		local TopMainLine = Instance.new("Frame")
