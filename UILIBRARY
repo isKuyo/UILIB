@@ -315,7 +315,7 @@ if BF then
 		Toggleui.Font = Enum.Font.Gotham
 		Toggleui.Text = "[ Right Control ]"
 		Toggleui.TextColor3 = Color3.fromRGB(255, 255, 255)
-		Toggleui.TextSize = 20.000
+		Toggleui.TextSize = 13.000
 	
 		HideTab.Name = "HideTab"
 		HideTab.Parent = TopMain
@@ -378,9 +378,6 @@ if BF then
 		BalckGrouitList.Position = UDim2.new(0, 0, 0.0799999982, 0)
 		BalckGrouitList.Size = UDim2.new(0, 120, 0, 305)
 		BalckGrouitList.ScrollBarThickness = 1
-	
-		BalckGrouitListUICorner.Name = "BalckGrouitListUICorner"
-		BalckGrouitListUICorner.Parent = BalckGrouitList
 	
 		BalckGrouitListUIListLayout.Name = "BalckGrouitListUIListLayout"
 		BalckGrouitListUIListLayout.Parent = BalckGrouitList
