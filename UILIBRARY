@@ -299,7 +299,7 @@ if BF then
 		NameHub.BackgroundTransparency = 1.000
 		NameHub.Position = UDim2.new(0.0507692285, 0, 0, 0)
 		NameHub.Size = UDim2.new(0, 160, 0, 30)
-		NameHub.Font = Enum.Font.Gotham
+		NameHub.Font = Enum.Font.SourceSansSemibold
 		NameHub.RichText =  true
 		NameHub.Text = "<font color=\"rgb(".. math.floor(ColorII.R * 255) .. "," .. math.floor(ColorII.G * 255) .. ",".. math.floor(ColorII.B * 255) ..")\"> " .. name .. " </font> Hub | " .. game
 		NameHub.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -312,10 +312,10 @@ if BF then
 		Toggleui.BackgroundTransparency = 1.000
 		Toggleui.Position = UDim2.new(0.803076923, 0, 0, 0)
 		Toggleui.Size = UDim2.new(0, 120, 0, 30)
-		Toggleui.Font = Enum.Font.Gotham
+		Toggleui.Font = Enum.Font.SourceSansSemibold
 		Toggleui.Text = "[ Right Control ]"
-		Toggleui.TextColor3 = Color3.fromRGB(255, 255, 255)
-		Toggleui.TextSize = 6.000
+		Toggleui.TextColor3 = Color3.fromRGB(39, 169, 255)
+		Toggleui.TextSize = 20.000
 	
 		HideTab.Name = "HideTab"
 		HideTab.Parent = TopMain
@@ -368,6 +368,9 @@ if BF then
 		TabSet.PlaceholderColor3 = Color3.fromRGB(39, 169, 255)
 		TabSet.TextSize = 18.000
 		TabSet.ClipsDescendants = true
+	
+		MainUICorner.Name = "MainUICorner"
+		MainUICorner.Parent = TabSet
 	
 		BalckGrouitList.Name = "BalckGrouitList"
 		BalckGrouitList.Parent = Taplist
